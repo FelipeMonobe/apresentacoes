@@ -9,8 +9,8 @@ operações assíncronas.
 
 Abaixo estão descritos os tópicos na ordem de apresentação:
 
-* Introdução - [link](0_introducao/README);
-* Callbacks - [link](1_callbacks/README);
-* Promises - [link](2_promises/README);
-* Generators e iterators - [link](3_generators/README);
-* Async e await - [link](4_async/README);
+* Introdução - [link](0_introducao);
+* Callbacks - [link](1_callbacks);
+* Promises - [link](2_promises);
+* Generators e iterators - [link](3_generators);
+* Async e await - [link](4_async);
