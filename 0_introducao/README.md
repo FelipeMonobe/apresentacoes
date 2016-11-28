@@ -18,15 +18,14 @@ Seguem algumas definições:
 - Event loop: Mecanismo que controla o ciclo de execução;
 - OS thread pool: Agrupamento de threads de programas a serem executadas pelo SO;
 
-![Fundamentos](images/fundamentals.jpg)
+![Fundamentos](../images/fundamentals.jpg)
 
 NodeJS APIs - métodos sync e async
 - FS (readFile, writeFile, appendFile, etc);
 - HTTP/NET (request, get, post, etc);
 - etc;
 
-(esquematização de requisição http, bonecos, ampulhetas, etc)
-![Requisição HTTP](images/httpRequest.jpg)
+![Requisição HTTP](../images/httpRequest.png)
 
 Fluxo válido para uma consulta de registro no DB ou arquivo no filesystem, por exemplo.
 
@@ -36,4 +35,4 @@ X ......... 15000ms
 Independente do tempo levado, você deixa a sua aplicação parada esperando o resultado da consulta?
 NÃO! vamos usar a natureza assíncrona do NodeJS ao nosso favor para resolver isso!
 
-[Voltar](README) [Avançar](1_callbacks/README)
+[Voltar](../) [Avançar](1_callbacks)
