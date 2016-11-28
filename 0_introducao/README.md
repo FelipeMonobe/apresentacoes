@@ -34,5 +34,3 @@ X ......... 15000ms
 
 Independente do tempo levado, você deixa a sua aplicação parada esperando o resultado da consulta?
 NÃO! vamos usar a natureza assíncrona do NodeJS ao nosso favor para resolver isso!
-
-<a href="https://github.com/FelipeMonobe/js_study">Voltar</a> [Avançar](1_callbacks)

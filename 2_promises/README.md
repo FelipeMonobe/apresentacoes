@@ -1,4 +1,4 @@
-2. Promises
+#2 - PROMISES
 (métodos)
 (Promise chain)
 (libs (Q) e nativo)
