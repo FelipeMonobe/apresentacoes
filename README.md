@@ -1,4 +1,5 @@
-NodeJS e operações assíncronas
+#NodeJS e operações assíncronas
+- - - -
 
 ![NodeJS](images/logo.png)
 
@@ -9,8 +10,8 @@ operações assíncronas.
 
 Abaixo estão descritos os tópicos na ordem de apresentação:
 
-0) Introdução [link](0_introducao/README);
-1) Callbacks [link](1_callbacks/README);
-2) Promises [link](2_promises/README);
-3) Generators e iterators [link](3_generators/README);
-4) Async e await [link](4_async/README);
+* 0) Introdução [link](0_introducao/README);
+* 1) Callbacks [link](1_callbacks/README);
+* 2) Promises [link](2_promises/README);
+* 3) Generators e iterators [link](3_generators/README);
+* 4) Async e await [link](4_async/README);
