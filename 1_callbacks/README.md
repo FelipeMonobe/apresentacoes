@@ -1,5 +1,6 @@
-#1 - CALLBACKS
+# 1 - CALLBACKS
 
+### High-order functions
 High-order functions são funções que cumprem ao menos uma das condições abaixo:
 - Recebe uma ou mais funções como argumentos;
 - Retorna uma função como resultado;
@@ -13,7 +14,7 @@ para quando forem recebidos, mas sem bloquear o resto da execução.
 
 [Exemplo callback](1_callback.js)
 
-(implementação NodeJS com EventEmitter)
+### Implementação do NodeJS
 Na verdade as APIs do NodeJS não trabalham APENAS com o pattern de callbacks. Operações mais
 complexas exigem mais do que saber o seu começo e fim. Numa requisição HTTP, por exemplo,
 podemos analisar e/ou fazer stream dos dados assim que eles chegam, mas pra isso precisamos
@@ -23,7 +24,7 @@ emissores de eventos (event emitters) e ouvintes (listeners). Um ou mais ouvinte
 
 [Exemplo event emitter](2_eventEmitter.js)
 
-(callback hell / pyramid of doom)
+### Problemas
 Ok, mas como fica o uso de callbacks num cenário mais real?
 Quando precisamos fazer N operações assíncronas encadeadas, ou seja, uma depende do
 resultado da outra, corremos o risco de cair no que chamam de callback hell ou pyramid of
