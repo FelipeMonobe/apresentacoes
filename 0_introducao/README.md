@@ -1,4 +1,4 @@
-0 - INTRODUÇÃO
+#0 - INTRODUÇÃO
 
 Para a maioria dos profissionais da área nos dias de hoje, ao dizer que um código é executado em
 apenas uma thread pode parecer algo totalmente inviável, arcaico e sem escabilidade. Então como o
@@ -29,10 +29,10 @@ NodeJS APIs - métodos sync e async
 
 Fluxo válido para uma consulta de registro no DB ou arquivo no filesystem, por exemplo.
 
-X ... 500ms
+X ... 500ms<br>
 X ......... 15000ms
 
 Independente do tempo levado, você deixa a sua aplicação parada esperando o resultado da consulta?
 NÃO! vamos usar a natureza assíncrona do NodeJS ao nosso favor para resolver isso!
 
-[Voltar](../) [Avançar](1_callbacks)
+<a href="https://github.com/FelipeMonobe/js_study">Voltar</a> [Avançar](1_callbacks)
