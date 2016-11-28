@@ -1,6 +1,6 @@
 #NodeJS e operações assíncronas
 
-![NodeJS](images/logo.png)
+<img src="https://github.com/FelipeMonobe/js_study/blob/master/images/logo.png" width="500" alt="NodeJS">
 
 Esta apresentação visa dar uma introdução a quem deseja iniciar a programar em NodeJS.
 Nela são explicados alguns conceitos de seu funcionamento básico.
