@@ -3,7 +3,7 @@
 Neste repositório você encontrará apresentações que realizei ou pretendo realizar.
 Os tópicos variam, mas no geral, são sobre o mundo Javascript.
 *Aproveite!*
-<br>
+<br><br>
 Abaixo estão há links para cada apresentação, assim como uma breve descrição da mesma.
 <br>
 * [Operações assíncronas](operacoes_assincronas/README.md): introdução para quem deseja utilizar o
