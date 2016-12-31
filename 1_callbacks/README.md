@@ -37,4 +37,4 @@ como no filme, isso confunde muitas pessoas e o nosso código perde muito em leg
 
 [Exemplo callback hell](3_callbackHell.js)
 ---
-###[Próximo (2 - Promises)](../2_promises/README.md)
+### [Próximo (2 - Promises)](../2_promises/README.md)
