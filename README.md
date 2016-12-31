@@ -1,20 +1,20 @@
-#NodeJS e operações assíncronas
+# Apresentações
 
-<img src="https://github.com/FelipeMonobe/js_study/blob/master/images/logo.png" width="350" alt="NodeJS">
+Neste repositório você encontrará apresentações que realizei ou pretendo realizar.
+Os tópicos variam, mas no geral, são sobre o mundo Javascript.
+*Aproveite!*
 
-Esta apresentação visa dar uma introdução a quem deseja iniciar a programar em NodeJS.
+visa dar uma introdução a quem deseja iniciar a programar em NodeJS.
 Nela são explicados alguns conceitos de seu funcionamento básico.
 E na sequência são demonstradas diversas estratégias para o controle do fluxo de
 operações assíncronas.
 
 Abaixo estão descritos os tópicos na ordem de apresentação:
 
-* [0 - Introdução](0_introducao);
-* [1 - Callbacks](1_callbacks);
-* [2 - Promises](2_promises);
-* [3 - Generators](3_generators);
-* [4 - Async e await](4_async);
+* [Operações assíncronas](operacoes_assincronas/README.md): introdução para quem deseja utilizar o
+fluxos assíncronos em NodeJS. Aborda com explicações exemplificadas os 4 principais métodos de
+controle (callbacks, promises, generators e async/await);
 
----
-
-### [Próximo (0 - Introdução)](0_introducao/README.md)
+* [Expressões regulares](expressoes_regulares/README.md): introdução para conhecer e entender a
+importância de expressões regulares para um desenvolvedor nos dias de hoje. Aborda casos de uso
+, sintaxe básica e desafios com exemplos;
