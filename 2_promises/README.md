@@ -7,7 +7,7 @@ dado externo, e te retorna o token (promise pendente). Quando a requisição é 
 executor resolvido (promise cumprida), o token é substituído pelo valor real do dado
 externo. Se o executor for rejeitado (promise rejeitada), no valor é recebido o erro.
 
-![Fundamentos](../images/2_promises_1.jpg)
+![Fundamentos](../images/2_promises_1.png)
 
 Inicialmente para usar promises era preciso adicionar bibliotecas como o *Q* ou o
 *Bluebird*, mas com a chegada do ES2015, o Javascript ganhou sua implementação nativa de
