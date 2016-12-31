@@ -1,5 +1,11 @@
 #2 - PROMISES
 
+---
+
+### [Voltar (1 - Callbacks)](../1_callbacks/README.md)
+
+---
+
 Tendo em vista as complicações do encadeamento de callbacks e error handling, surgiu uma
 nova solução. As promises. Elas são como tokens. Quando as usamos, o código executa um tipo
 de função chamada executor, que recebe argumentos resolve e reject. O executor requisita o
@@ -48,3 +54,9 @@ algumas soluções não elegantes ao problema:
 
 [Exemplo global](4_global.js)<br>
 [Exemplo bind](5_bind.js)<br>
+
+---
+
+### [Avançar (3 - Generators)](../3_generators/README.md)
+
+---
