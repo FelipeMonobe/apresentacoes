@@ -31,9 +31,9 @@ as outras também tiverem. A promise central recebe um array com os valores reto
 A capacidade das promises serem encadeadas adicionando novas funções com o *then* resolveu o
 problema anterior dos callbacks, trazendo muito mais organização. Como visto a seguir.
 
-[Exemplo promise](1_promise.js)
-[Exemplo catch](2_catch.js)
-[Exemplo all](3_all.js)
+[Exemplo promise](1_promise.js)<br>
+[Exemplo catch](2_catch.js)<br>
+[Exemplo all](3_all.js)<br>
 
 ** Algumas bibliotecas disponibilizam uma função que transforma callbacks das APIs
 assíncronas do NodeJS em promises.
