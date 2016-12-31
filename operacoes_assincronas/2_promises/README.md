@@ -10,9 +10,9 @@
 
 Tendo em vista as complicações do encadeamento de callbacks e error handling, surgiu uma
 nova solução. As promises. Elas são como tokens. Quando as usamos, o código executa um tipo
-de função chamada executor, que recebe argumentos resolve e reject. O executor requisita o
-dado externo, e te retorna o token (promise pendente). Quando a requisição é completada e o
-executor resolvido (promise cumprida), o token é substituído pelo valor real do dado
+de função chamada executor, parecida com um callback, que recebe argumentos resolve e reject. O
+executor requisita o dado externo, e te retorna o token (promise pendente). Quando a requisição é
+completada e o executor resolvido (promise cumprida), o token é substituído pelo valor real do dado
 externo. Se o executor for rejeitado (promise rejeitada), no valor é recebido o erro.
 
 ![Fundamentos](../images/2_promises_1.png)
