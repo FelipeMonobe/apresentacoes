@@ -6,6 +6,8 @@
 
 ---
 
+### Definição
+
 Tendo em vista as complicações do encadeamento de callbacks e error handling, surgiu uma
 nova solução. As promises. Elas são como tokens. Quando as usamos, o código executa um tipo
 de função chamada executor, que recebe argumentos resolve e reject. O executor requisita o
@@ -15,11 +17,18 @@ externo. Se o executor for rejeitado (promise rejeitada), no valor é recebido o
 
 ![Fundamentos](../images/2_promises_1.png)
 
+### Bibliotecas
+
 Inicialmente para usar promises era preciso adicionar bibliotecas como o *Q* ou o
 *Bluebird*, mas com a chegada do ES2015, o Javascript ganhou sua implementação nativa de
 Promises. É muito debatido se ainda compensa usar essas bibliotecas. Há benchmarks que
 apontam melhor performance e menor custo com o uso do *Bluebird* comparado ao nativo, além
 de ter mais funcionalidades.
+
+** Algumas bibliotecas disponibilizam uma função que transforma callbacks das APIs
+assíncronas do NodeJS em promises.
+
+### Métodos
 
 Uma promise conta com os seguinte métodos:
 - then(fn): encadeia uma função que recebe como argumento o valor resolvido da promise do
@@ -41,8 +50,7 @@ problema anterior dos callbacks, trazendo muito mais organização. Como visto a
 [Exemplo catch](2_catch.js)<br>
 [Exemplo all](3_all.js)<br>
 
-** Algumas bibliotecas disponibilizam uma função que transforma callbacks das APIs
-assíncronas do NodeJS em promises.
+### Problema
 
 O problema com as promises é causado por duas mecânicas: escopo de funções e os próprios
 callbacks passados como argumento dos métodos then. Imagine que precisamos executar uma
