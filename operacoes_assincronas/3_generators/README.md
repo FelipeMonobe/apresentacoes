@@ -6,6 +6,7 @@
 
 ---
 
+### Definição
 Generators vieram com a "nova" versão ES2015 do Javascript. Na verdade, estes servem como factories
 de iterators. Iterators nada mais são que objetos que tem habilidade de percorrer itens, um por um,
 de um iterable (strings, arrays, maps, sets).
