@@ -46,5 +46,5 @@ funções que não as diretamente anteriores? Por causa do escopo das funções,
 terão acesso aos seus argumentos. O Promise.all não serve pois executa em paralelo. Seguem
 algumas soluções não elegantes ao problema:
 
-[Exemplo global](4_global.js)
-[Exemplo bind](5_bind.js)
+[Exemplo global](4_global.js)<br>
+[Exemplo bind](5_bind.js)<br>
