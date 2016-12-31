@@ -2,7 +2,7 @@
 
 ---
 
-### [Anterior (0 - Introdução)](../README.md)
+### [Voltar (0 - Introdução)](../0_introducao/README.md)
 
 ---
 
@@ -43,4 +43,4 @@ como no filme, isso confunde muitas pessoas e o nosso código perde muito em leg
 
 ---
 
-### [Próximo (2 - Promises)](../2_promises/README.md)
+### [Avançar (2 - Promises)](../2_promises/README.md)
