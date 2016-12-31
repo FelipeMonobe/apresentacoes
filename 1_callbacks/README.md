@@ -1,5 +1,7 @@
 # 1 - CALLBACKS
-
+---
+### [Anterior (0 - Introdução)](../README.md)
+---
 ### High-order functions
 High-order functions são funções que cumprem ao menos uma das condições abaixo:
 - Recebe uma ou mais funções como argumentos;
@@ -34,3 +36,5 @@ doom. É o aninhamento (nesting) de várias funções no melhor estilo Inception
 como no filme, isso confunde muitas pessoas e o nosso código perde muito em legibilidade.
 
 [Exemplo callback hell](3_callbackHell.js)
+---
+###[Próximo (2 - Promises)](../2_promises/README.md)
