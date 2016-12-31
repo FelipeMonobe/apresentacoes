@@ -1,11 +1,18 @@
-const EventEmitter = require('events').EventEmitter;
-const emitter = new EventEmitter();
+const EventEmitter = require('events').EventEmitter
 
-let counter = 0;
+const emitter = new EventEmitter()
+const incrementaEemite = () => {
+  contador++
+  return emitter.emit('meuEvento', contador)
+}
+const main = () => {
+  setInterval(incrementaEemite, 1000)
+  return emitter.on('meuEvento', (valor) => {
+    if (valor % 3 === 0) return console.log(`Valor do contador: ${valor}`)
+    return null
+  })
+}
 
-setInterval(() => {
-  counter++;
-  if (counter % 3 === 0) emitter.emit('meuEvento', counter);
-}, 1000);
+let contador = 0
 
-emitter.on('meuEvento', (input) => console.log(`Counter está em ${input}`));
+main()

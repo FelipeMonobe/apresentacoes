@@ -19,7 +19,9 @@ complexas exigem mais do que saber o seu começo e fim. Numa requisição HTTP, 
 podemos analisar e/ou fazer stream dos dados assim que eles chegam, mas pra isso precisamos
 saber quando esses pedaços (chunks) de dado são recebidos para então fazer o seu processamento.
 Para fazer esse acompanhamento de estados intermediários, o NodeJS usa um pattern com
-emissores de eventos (event emitters) e ouvintes (listeners). Um ou mais ouvintes se registram para ouvir eventos disparados em um determinado "canal" e então executam suas funções de callback predeterminadas. *Mesmo conceito dos watchers do AngularJS*
+emissores de eventos (event emitters) e ouvintes (listeners). Um ou mais ouvintes se registram para
+ouvir eventos disparados em um determinado "canal" e então executam suas funções de callback
+predeterminadas. *Mesmo conceito dos watchers do AngularJS*
 
 [Exemplo event emitter](2_eventEmitter.js)
 
