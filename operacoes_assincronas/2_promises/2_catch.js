@@ -1,4 +1,4 @@
-const geraPromiseFnFn = (msg) => () => {
+const geraPromiseFn = (msg) => () => {
   console.log(msg)
   return new Promise((resolve, reject) => setTimeout(resolve, 3000))
 }

@@ -1,7 +1,7 @@
 const generator = function*() {
   let indice = 65
   while (indice < 91) {
-    return yield String.fromCharCode(indice++)
+    yield String.fromCharCode(indice++)
   }
 }
 const iterator = generator()
