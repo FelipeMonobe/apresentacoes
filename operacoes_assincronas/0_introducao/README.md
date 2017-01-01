@@ -6,6 +6,8 @@
 
 ---
 
+### Contexto
+
 Para a maioria dos profissionais da área nos dias de hoje, ao dizer que um código é executado em
 apenas uma thread pode parecer algo totalmente inviável, arcaico e sem escabilidade. Então como o
 NodeJS conseguiu evoluir tanto e ganhar não só a confiança de grandes players do mercado, mas
