@@ -1,4 +1,4 @@
-# NodeJS e operações assíncronas
+# Operações assíncronas no NodeJS
 
 <img src="https://github.com/FelipeMonobe/apresentacoes/blob/master/operacoes_assincronas/images/logo.png" width="350" alt="NodeJS">
 
