@@ -5,8 +5,16 @@
 ### [Voltar (4 - Async)](../4_async/README.md)
 
 ---
-
+### Palavras finais
 Portanto, podemos perceber que com o passar do tempo, foram-se encontrando novos meios de se
 controlar os fluxos assíncronos, de callbacks para promises, generators e finalmente async/await.
 É importante ressaltar que cada um desses adicionou um novo mecanismo/camada no processo para
 facilitar a vida dos desenvolvedores. Cada estratégia é intercambiável, fazendo os devidos ajustes.
+
+### Referências
+- [The Hidden Power of ES6 Generators: Observable Async Flow Control - Eric Elliot](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435#.g0gsq9hvp)
+- [Node.js Succintly by Emanuele DelBono (SyncFusion)]
+- [ES 5-6-7: From Callbacks to Promises to Generators to Async/await - RDX](https://medium.com/@rdsubhas/es6-from-callbacks-to-promises-to-generators-87f1c0cd8f2e#.wu8kwirqf)
+- [Mozila Developer Network (Promises)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [Mozila Developer Network (Generators)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
+- [Node.green](http://node.green/)

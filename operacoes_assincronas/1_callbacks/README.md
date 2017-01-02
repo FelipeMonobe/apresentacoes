@@ -11,7 +11,7 @@ High-order functions são funções que cumprem ao menos uma das condições aba
 - Recebe uma ou mais funções como argumentos;
 - Retorna uma função como resultado;
 
-Podem ser usadas para function currying e partial application, práticas comuns na programação
+Podem ser usadas para function currying e partial application (https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8), práticas comuns na programação
 funcional. Callbacks são um tipo de high-order function, pois entram como argumento de outras
 funções. E como seu nome diz, a execução de uma callback é chamada de dentro da sua parent function,
 podendo então, retomar o fluxo de execução original de forma não-procedural.
@@ -31,6 +31,11 @@ ouvir eventos disparados em um determinado "canal" e então executam suas funç�
 predeterminadas. *Mesmo conceito dos watchers do AngularJS*
 
 [Exemplo event emitter](2_eventEmitter.js)
+
+### Benefícios
+Resumindo, com callbacks podemos finalmente alcançar fluxos assíncronos. E por ser o método mais simples
+e natural, tem mais performance que os próximos e não precisa de nenhuma biblioteca nem nada e é
+totalmente funcional em browsers também.
 
 ### Problemas
 Ok, mas como fica o uso de callbacks num cenário mais real?
