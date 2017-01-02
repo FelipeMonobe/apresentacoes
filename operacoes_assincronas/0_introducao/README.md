@@ -20,16 +20,16 @@ não-escalável numa das plataformas mais usadas e preferidas do momento?
 Aplicações frequentemente precisam buscar recursos de fontes externas, como informações de um banco
 de dados, de uma API de terceiros ou até mesmo um arquivo no filesystem. Isso pode demandar um
 tempo indeterminado.
-Para essas operações específicas, o NodeJS conta com uma *Thread Pool* de 4 threads: *Filesystem*
-para manusear arquivos e pastas, *Network* para comunicação na rede, *Process* para abrir processos
-externos, e *Other* para qualquer outro tipo de operação.
+Para essas operações específicas, o NodeJS conta com uma **Thread Pool** de 4 threads: **Filesystem**
+para manusear arquivos e pastas, **Network** para comunicação na rede, **Process** para abrir processos
+externos, e **Other** para qualquer outro tipo de operação.
 Para a aplicação não ficar totalmente estática e esperando, o gerenciador de eventos
-*Single-Threaded* chamado de *Event Loop* delega o processamento desses recursos externos às suas
-respectivas threads do *Thread Pool*. Para saber em que trecho do código prosseguir depois que o
-recurso é resgatado, um *Evento* é registrado no *Event Queue*, onde ficam todas as operações
-assíncronas. Depois disso, o *Event Loop* interrompe essa linha de execução e continua com outras
-para executar. Por causa deste comportamento, o NodeJS é caracterizado como *Non-blocking I/O*.
-Finalmente, quando o recurso é recebido, é disparado o *Evento* previamente registrado e aquele
+**Single-Threaded** chamado de **Event Loop** delega o processamento desses recursos externos às suas
+respectivas threads do **Thread Pool**. Para saber em que trecho do código prosseguir depois que o
+recurso é resgatado, um **Evento** é registrado no **Event Queue**, onde ficam todas as operações
+assíncronas. Depois disso, o **Event Loop** interrompe essa linha de execução e continua com outras
+para executar. Por causa deste comportamento, o NodeJS é caracterizado como **Non-blocking I/O**.
+Finalmente, quando o recurso é recebido, é disparado o **Evento** previamente registrado e aquele
 código "pausado" é retomado para finalizar o seu processamento.
 
 ![Fundamentos](../images/fundamentals.jpg)
@@ -63,8 +63,8 @@ Fazendo esse fluxo de forma síncrona, teremos que esperar a escrita no arquivo 
 poder começar a pensar na execução da query. Sendo que um não tem relação direta com o outro e
 poderiam ocorrer paralelamente, agilizando o processo.
 
-No cenário síncrono, o tempo total é de *20 segundos*. É a *soma* das operações.
-Fazendo de forma assíncrona, o tempo total é de *15 segundos*. É o valor do mais demorado.
+No cenário síncrono, o tempo total é de **20 segundos**. É a **soma** das operações.
+Fazendo de forma assíncrona, o tempo total é de **15 segundos**. É o valor do mais demorado.
 
 Neste caso é só uma escrita em log, mas poderia ser mais muito complexo e pesado. Esses tempos numa
 aplicação grande podem ser maiores, e temos que diminuí-los o máximo possível. Afinal ninguem quer
