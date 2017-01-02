@@ -45,7 +45,7 @@ Agora vejamos o cenário hipotético abaixo:
 
 Imagine que estamos naquele sisteminha maroto e precisamos fazer uma listagem básica de usuários
 com suas imagens de perfil salvas em 500x500 formato base64. Finalmente, o sistema deve salvar num
-arquivo de de log físico do servidor informações detalhadas da operação.
+arquivo de log físico do servidor informações detalhadas da operação.
 A ordem lógica desse fluxo deve ser algo como:
 
 1. Acessar URL;
