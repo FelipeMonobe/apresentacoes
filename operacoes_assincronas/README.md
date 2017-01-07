@@ -1,11 +1,11 @@
-# Operações assíncronas no NodeJS
+# A Evolução do assíncrono no NodeJS
 
 <img src="https://github.com/FelipeMonobe/apresentacoes/blob/master/operacoes_assincronas/images/logo.png" width="350" alt="NodeJS">
 
-Esta apresentação visa dar uma introdução a quem deseja iniciar a programar em NodeJS.
-Nela são explicados alguns conceitos de seu funcionamento básico.
-E na sequência são demonstradas diversas estratégias para o controle do fluxo de
-operações assíncronas.
+Vamos entender a evolução das operações assíncronas, uma das principais
+características do NodeJS. Demonstrando as vantagens e desvantagens de cada
+estratégia de controle desses fluxos,  passando desde callbacks até o futuro,
+async/await.
 
 Abaixo estão descritos os tópicos na ordem de apresentação:
 

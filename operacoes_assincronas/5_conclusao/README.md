@@ -5,6 +5,15 @@
 ### [Voltar (4 - Async)](../4_async/README.md)
 
 ---
+### Então...
+Agora que aprendemos tudo isso, já podemos sair fazendo tudo assíncrono!!
+Bom.. não é preciso se realmente não houver a necessidade disso.
+Inclusive pode-se mesclar trechos assíncronos com síncronos. Mas
+**PRESTE ATENÇÃO** ao fazer isso, garanta a ordem correta do fluxo caso precise
+de algum tipo de precedência de dados ou processamento. Como no exemplo a seguir:
+
+[Exemplo precedência](1_precedencia.js)
+
 ### Palavras finais
 Portanto, podemos perceber que com o passar do tempo, foram-se encontrando novos meios de se
 controlar os fluxos assíncronos, de callbacks para promises, generators e finalmente async/await.
