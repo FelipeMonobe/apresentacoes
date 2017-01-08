@@ -4,7 +4,7 @@ Neste repositório você encontrará apresentações que realizei ou pretendo re
 Os tópicos variam, mas no geral, são sobre o mundo Javascript.
 *Aproveite!*
 <br><br>
-Abaixo estão há links para cada apresentação, assim como uma breve descrição da mesma.
+Abaixo há links para cada apresentação, assim como uma breve descrição da mesma.
 <br>
 * [Operações assíncronas](operacoes_assincronas/README.md): introdução para quem deseja utilizar o
 fluxos assíncronos em NodeJS. Aborda com explicações exemplificadas os 4 principais métodos de
