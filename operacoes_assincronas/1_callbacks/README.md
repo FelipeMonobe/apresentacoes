@@ -12,10 +12,10 @@ High-order functions são funções que cumprem ao menos uma das condições aba
 - Retorna uma função como **resultado**;
 
 Podem ser usadas para function **currying** e **partial application** (https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8), práticas comuns na programação
-funcional. **Callbacks** são um tipo de high-order function, pois entram como argumento de outras
-funções. E como seu nome diz, a execução de uma callback é chamada de dentro da sua parent function,
-podendo então, retomar o fluxo de execução original de forma **não-procedural**.
-Ou seja, podemos fazer uma requisição a um recurso externo e registrar o processamento desses dados
+funcional. **Callbacks** são argumentos de uma high-order function. E como seu pŕoprio
+nome indica, a execução de uma callback é chamada de dentro da high-order function para 
+retomar o fluxo de execução original de forma **não-procedural**.
+Ou seja, podemos fazer uma requisição a um recurso externo e registrar o pós-processamento desses dados
 para quando forem recebidos, mas sem bloquear o resto da execução.
 
 [Exemplo callback](1_callback.js)
