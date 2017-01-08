@@ -23,7 +23,7 @@ facilitar a vida dos desenvolvedores. Cada estratégia é intercambiável, fazen
 ### Referências
 - [NodeJS official topics explanation](https://github.com/nodejs/node/tree/master/doc/topics)
 - [The Hidden Power of ES6 Generators: Observable Async Flow Control - Eric Elliot](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435#.g0gsq9hvp)
-- [Node.js Succintly by Emanuele DelBono (SyncFusion)]
+- [Node.js Succintly by Emanuele DelBono (SyncFusion)](https://www.syncfusion.com/resources/techportal/details/ebooks/nodejs)
 - [ES 5-6-7: From Callbacks to Promises to Generators to Async/await - RDX](https://medium.com/@rdsubhas/es6-from-callbacks-to-promises-to-generators-87f1c0cd8f2e#.wu8kwirqf)
 - [Mozila Developer Network (Promises)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [Mozila Developer Network (Generators)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
