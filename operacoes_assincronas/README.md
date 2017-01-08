@@ -14,6 +14,7 @@ Abaixo estão descritos os tópicos na ordem de apresentação:
 * [2 - Promises](2_promises);
 * [3 - Generators](3_generators);
 * [4 - Async e await](4_async);
+* [5 - Conclusão](5_conclusao);
 
 ---
 
