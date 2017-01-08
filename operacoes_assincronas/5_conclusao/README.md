@@ -21,6 +21,7 @@ controlar os fluxos assíncronos, de callbacks para promises, generators e final
 facilitar a vida dos desenvolvedores. Cada estratégia é intercambiável, fazendo os devidos ajustes.
 
 ### Referências
+- [NodeJS official topics explanation](https://github.com/nodejs/node/tree/master/doc/topics)
 - [The Hidden Power of ES6 Generators: Observable Async Flow Control - Eric Elliot](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435#.g0gsq9hvp)
 - [Node.js Succintly by Emanuele DelBono (SyncFusion)]
 - [ES 5-6-7: From Callbacks to Promises to Generators to Async/await - RDX](https://medium.com/@rdsubhas/es6-from-callbacks-to-promises-to-generators-87f1c0cd8f2e#.wu8kwirqf)
