@@ -3,8 +3,6 @@ const esperaDepoisCallback = (cb) => {
   console.log(`It's gonna be... wait for it...`)
   return setTimeout(cb, 3000)
 }
-const main = () => {
-  return esperaDepoisCallback(callback)
-}
+const main = () => esperaDepoisCallback(callback)
 
 main()
